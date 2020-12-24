@@ -1,0 +1,9 @@
+RUNG 5
+  CONTACTS Rheater_1 0 0
+  CONTACTS Rheater_2 0 0
+  RTO Theater_off 420000000 0
+  PARALLEL
+    COIL Rheater_1 0 0 1 0
+    COIL Rheater_2 0 0 1 0
+  END
+END

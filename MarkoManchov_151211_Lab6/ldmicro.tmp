@@ -1,0 +1,9 @@
+RUNG 3
+  CONTACTS Ygate_shift 0 0
+  RTO Tgate_on_timer 2000000 0
+  PARALLEL
+    COIL Ygate_shift 0 0 1 0
+    RES Citem_counter
+    RES Tgate_on_timer
+  END
+END
